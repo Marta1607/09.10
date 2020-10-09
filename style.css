@@ -1,0 +1,42 @@
+
+
+.row{
+    text-align: center;
+    margin-left: 100px;
+}
+.border{
+    border-radius: 50%;
+}
+.fa-heart{
+    border-radius: 50%;
+    background-color: hotpink;
+    color: indigo;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+img:hover{
+    animation-name: zoom;
+    animation-duration: 100ms;
+    animation-fill-mode: forwards;
+}
+
+
+/* .img-animation{
+    overflow: hidden;
+} */
+
+@keyframes zoom{  
+    form {
+        width: 367px;
+        height: 189px;
+        
+    }
+    to{
+        transform: scale(1.5);
+    }
+}
+.center{
+    text-align: center;
+}
+
