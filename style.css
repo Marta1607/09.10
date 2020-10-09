@@ -57,5 +57,6 @@ img:hover{
 }
 #menu {
     position: fixed;
-    left: 5px;
-    top: 0;}
+    width: 100%;
+    z-index: 100;
+}
